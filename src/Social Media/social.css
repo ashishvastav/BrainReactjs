@@ -1,0 +1,67 @@
+.astro-h {
+    color: #008080;
+}
+
+.social-media {
+    display: flex;
+    background: #e3edf7;
+    height: 40px;
+    width: 50px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+}
+
+.social-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.social-media i {
+    font-size: 35px;
+    color: #777;
+    transition: transform 0.5s;
+}
+
+.social-media:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset 6px 6px 10px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px rgba(0, 0, 0, .15), 0px 12px 10px -10px rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0, 0, 0, .1);
+    transform: translate(2px);
+}
+
+.social-media:hover i {
+    transform: scale(0.98);
+}
+
+.social-media:hover .fa-facebook {
+    color: #3b5998;
+}
+
+.social-media:hover .fa-twitter {
+    color: #00acee;
+}
+
+.social-media:hover .fa-whatsapp {
+    color: #4fce5d;
+}
+
+.social-media:hover .fa-youtube {
+    color: #f00;
+}
+
+.social-media:hover .fa-vk {
+    color: #4376A6;
+}
+
+.bg {
+    background: rgb(236, 235, 239);
+    background: linear-gradient(90deg, rgba(236, 235, 239, 1) 0%, rgba(230, 230, 233, 0.9895308465182948) 100%);
+}

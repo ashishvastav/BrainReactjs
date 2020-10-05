@@ -1,0 +1,20 @@
+.hello {
+    width: 18rem;
+}
+
+.crd-titl {
+    font: 1rem;
+}
+
+.card-img-top {
+    transform: scale(1);
+    transition-delay: .8s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.2);
+}
+
+.card-font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

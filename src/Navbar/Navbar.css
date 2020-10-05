@@ -1,0 +1,17 @@
+.nav-bg {
+    background: rgb(0, 128, 128);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.time {
+    color: #ffffff;
+    font-size: .8rem;
+    padding-left: 15px;
+}
+
+.navbg-color:hover {
+    /* background-color: brown; */
+    border-radius: 0;
+    box-shadow: 0 0 2pt 1pt white;
+}

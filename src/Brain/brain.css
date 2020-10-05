@@ -1,0 +1,13 @@
+.astro-h {
+    color: #008080;
+}
+
+.img-style {
+    width: 200px;
+    height: 200px;
+}
+
+.bg {
+    background: rgb(236, 235, 239);
+    background: linear-gradient(90deg, rgba(236, 235, 239, 1) 0%, rgba(230, 230, 233, 0.9895308465182948) 100%);
+}
